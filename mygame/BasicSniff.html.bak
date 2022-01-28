@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type = “text/javascript”>
+var sniffer=new Object();  ➝ 5
+sniffer.agentNow=navigator.userAgent;  ➝ 6
+document.write(sniffer.agentNow);
+</script>
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8”>
+<title>JS Work</title>
+</head>
+<body>
+</body>
+</html>

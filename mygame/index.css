@@ -1,0 +1,84 @@
+@charset “utf-8”;
+/* CSS Document */
+body {
+   font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+   background: #666666;
+   margin: 0;
+   padding: 0;
+   color: #333333;
+}
+ul, ol, dl { 
+   padding: 0;
+   margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+   margin-top: 0;
+   padding-right: 5px;
+   padding-left: 15px; 
+   color: #CCC;
+   text-align: left;
+ }
+.container {
+   width: 100%;
+   max-width: 800px;
+   min-width: 320px;
+   background: #666;
+   margin: 0 auto;
+}
+.header {
+   background: #666;
+}
+.sidebar1 {
+   float: left;
+   width: 25%;
+    background: #666666;
+   padding-bottom: 10px;
+}
+.content {
+   padding: 10px 0;
+   width: 75%;
+  background: #333333;
+   float: left;
+}
+.footer {
+   padding: 10px 0;
+   background: #666666;
+   position: relative;
+   clear: both; 
+}
+.container .content h1 {
+   font-size: medium;
+}
+.container .footer p a {
+   font-size: small;
+   color: #CCC;
+}
+.container .sidebar1 p {
+   font-family: Arial, Helvetica, sans-serif;
+   color: #999;
+   font-size: xx-small;
+   text-align: center;
+   line-height: 15px;
+}
+ul.nav {
+   list-style: none; 
+   border-top: 1px solid #666; 
+   margin-bottom: 15px; 
+}
+ul.nav li {
+   border-bottom: 1px solid #666; 
+}
+ul.nav a, ul.nav a:visited { 
+  padding: 5px 5px 5px 15px;
+   display: block; 
+   text-decoration: none;
+   background: #666666;
+   color: #CCCCCC;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+   background: #999999;
+   color: #FFF;
+}
+a img { 
+   border: none;
+}

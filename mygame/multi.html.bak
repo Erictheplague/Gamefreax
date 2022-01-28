@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv=”Content-Type” content=”text/html; charset=utf-8”>
+<title>Multicolumn Layout</title>
+<link href=”multi.css” rel=”stylesheet” type=”text/css”>
+</head>
+<body><section>
+   <header>
+      <p><h1></h1></p>
+   </header>
+      <p></p>
+</section>
+</body>
+</html>

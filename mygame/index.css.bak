@@ -1,0 +1,23 @@
+@charset “utf-8”;
+.container {
+   width: 100%;
+   max-width: 800px;
+   min-width: 320px;
+   background-color: #2503ff;
+   margin: 0 auto;
+}
+.header {
+   background: #2503ff;
+}
+.sidebar1 {
+   float: left;
+   width: 25%;
+   background: #2503ff;
+   padding-bottom: 10px;
+}
+.content {
+   padding: 10px 0;
+   width: 75%;
+   background: #ff0000;
+   float: left;
+}
